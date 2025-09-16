@@ -14,6 +14,9 @@ public class ProductDTO {
 
     private List<CategoryDTO> categories = new ArrayList<>();
 
+    public ProductDTO() {
+    }
+
     public ProductDTO(Long id, String name, Double price) {
         this.id = id;
         this.name = name;
